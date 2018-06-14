@@ -1,0 +1,15 @@
+{
+  "name": "Sencha Docs",
+  "description": "Help search Extjs docs on Sencha site",
+  "omnibox": {
+    "keyword": "ext"
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "background": {
+    "scripts": [ "extjs-6.2.0-apiTree.js","background.js"]
+  },
+  "version": "1.0",
+  "manifest_version": 2
+}
