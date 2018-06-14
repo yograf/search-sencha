@@ -31,7 +31,7 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
   const d = getSuggestion(docs.API.classic, text);
   console.log(JSON.stringify(d));
   console.log(ddd)
-  suggest(d);
+  suggest(d); 
 
   // Suggestion code will end up here.
 });
@@ -47,5 +47,5 @@ function navigate(url) {
 }
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
-  navigate('http://docs.sencha.com/' + text);
+  navigate('https://docs.sencha.com/extjs/6.5.0/' + ddd[text]);
 });
